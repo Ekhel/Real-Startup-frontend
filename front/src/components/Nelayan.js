@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { List, Avatar, Icon } from 'antd';
 
 const IconText = ({ type, text }) => (

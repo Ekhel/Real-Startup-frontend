@@ -16,28 +16,26 @@ for (let i = 0; i < 23; i++) {
   });
 }
 
-class NelayanList extends React.Component{
+class NelayanList extends React.Component {
 
     state = {
-        nelayans: []
-    }
+        nelayans: [],
+    };
 
     componentDidMount() {
         axios.get('http://127.0.0.1:8000/api/')
             .then(res => {
-                this.setState({
-                    nelayans: res.data
-                });
+                this.setState({nelayans: res.data});   
                 console.log(res.data);
             })
     }
 
-    render(){
-        return(
-            <Nelayans data={listData}>
-
-            </Nelayans>
-        )
+    render() {
+       return(
+           <Nelayans>
+                {this.state.nelayans}
+           </Nelayans>
+       )
     }
 }
 
