@@ -8,7 +8,7 @@ const CustomLayout = (props) => {
     return (
         <Layout className="layout">
             <Header>
-            <div className="logo" />
+            <div className="App" />
             <Menu
                 theme="dark"
                 mode="horizontal"
