@@ -43,7 +43,7 @@ const Nelayans = (props) => {
             >
                 <List.Item.Meta
                 avatar={<Avatar src={item.avatar} />}
-                title={<a href={item.href}>{item.id_nelayan}</a>}
+                title={<a href={item.nama}>{item.id_nelayan}</a>}
                 description={item.ttl}
                 />
                 {item.jekel}

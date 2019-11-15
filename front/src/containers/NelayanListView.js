@@ -25,8 +25,8 @@ class NelayanList extends React.Component {
     componentDidMount() {
         axios.get('http://127.0.0.1:8000/api/')
             .then(res => {
-                this.setState({nelayans: res.data});   
-                console.log(res.data);
+                this.setState({nelayans: res.data.result});   
+                console.log(res.data.result);
             })
     }
 

@@ -3,13 +3,15 @@ import 'antd/dist/antd.css';
 
 import CustomLayout from './containers/Layout';
 import NelayanList from './containers/NelayanListView';
+import ProdukList from './containers/ProdukListView';
+
 
 class App extends Component {
   render() {
     return (
         <div className="App">
             <CustomLayout>
-                <NelayanList />
+                <ProdukList></ProdukList>
             </CustomLayout>
         </div> 
     );
