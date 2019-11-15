@@ -2,8 +2,6 @@ import React from 'react';
 
 import { Layout, Menu, Breadcrumb } from 'antd';
 
-import Slides from '../components/Corousel';
-
 const { Header, Content, Footer } = Layout;
 
 const CustomLayout = (props) => {
@@ -23,7 +21,7 @@ const CustomLayout = (props) => {
             </Menu>
             </Header>
             <Content style={{ padding: '0 50px' }}>
-            <Slides />
+            
             <Breadcrumb style={{ margin: '16px 0' }}>
                 <Breadcrumb.Item>Home</Breadcrumb.Item>
                 <Breadcrumb.Item>List</Breadcrumb.Item>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Icon, Avatar } from 'antd';
 
+
 const { Meta } = Card;
 
 const Produks = (props) => {
@@ -21,7 +22,7 @@ const Produks = (props) => {
         >
             <Meta
             avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
-            title={Card.nama_produk}
+            title="The Title"
             description="This is the description"
             />
         </Card>
