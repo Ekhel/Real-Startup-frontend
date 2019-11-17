@@ -1,11 +1,14 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 
-import ProdukList from './containers/ProdukListView';
+import Produks from './components/Produk';
+import login from './components/Login';
 
 const BaseRouter = () => (
     <div>
-        <Route exact path='/' component={ProdukList} />
+        <Route exact path='/' component={Produks} />
+        <Route exact path='/login/' component={login} />
+        
     </div>
 )
 
