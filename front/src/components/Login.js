@@ -54,8 +54,7 @@ class NormalLoginForm extends React.Component {
                 {getFieldDecorator('password', {
                     rules: [{ required: true, message: 'Please input your Password!' }],
                 })(
-                    <Input
-                    prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />}
+                    <Input prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />}
                     type="password"
                     placeholder="Password"
                     />,
@@ -69,7 +68,7 @@ class NormalLoginForm extends React.Component {
                     Or
                     <NavLink 
                         style={{marginRight: '10px'}} 
-                        to="/signup/"> Singup
+                        to="/Sigup/"> Singup
                     </NavLink>
                 </Form.Item>
             </Form>
